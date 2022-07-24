@@ -1,0 +1,78 @@
+/* Mobile */
+@media (max-width: 500px) {
+  section .container {
+    width: 500px;
+  }
+  .past2,
+  .past3,
+  .past4,
+  .past7,
+  .past8 {
+    grid-template-columns: 1fr;
+  }
+  /* Phần 3 Navbar */
+  .name2 {
+    display: none;
+  }
+  .past2 {
+    display: block;
+  }
+  div a {
+    border: none;
+    display: block;
+  }
+  /* 4 Phần Thông tin các nhân */
+  #about {
+    background-image: linear-gradient(to bottom, #f7f7f7 50%, #dee2e6 50%);
+  }
+  /* 5 Phần Thông tin nghề nghiệp */
+  .past7 
+  /* 6 Phần chứng chỉ - Giải thưởng*/
+  .imp7 {
+    border-bottom: 1px solid #d6c08d;
+    padding-bottom: 30px;
+  }
+  .past7::after {
+    border: none;
+  }
+  .colum7 {
+    border-left: none;
+  }
+  .past7 {
+    gap: 50px 0;
+  }
+  .colum-7 {
+    border-bottom: none;
+  }
+  .span7 {
+    font-size: 18px;
+  }
+  .span7 p {
+    color: #000;
+  }
+  /* 7 Phần dự án */
+  .pic8 {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+  }
+  .figure-box {
+    /* display: block; */
+    justify-self: flex-end;
+  }
+  .pic8 {
+    margin: 20px 0;
+  }
+  .chair-box {
+    height: auto;
+  }
+  .figure-pd {
+    padding: 15px 20px;
+  }
+  /* 8 Phần Footer */
+  .past9 p {
+    display: none;
+  }
+  .past9 {
+    font-size: 30px;
+  }
+  /* 10 Đưa trang web lên online */
+}

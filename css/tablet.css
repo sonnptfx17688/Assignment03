@@ -1,0 +1,51 @@
+/* tablet */
+@media (max-width: 768px) {
+  section .container {
+    width: 768px;
+  }
+  .past3,
+  .past4,
+  .past7 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Phần 3 Navbar */
+  .past2 {
+    font-size: 16px;
+  }
+  .name2 {
+    display: none;
+  }
+  .nav2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* 4 Phần Thông tin các nhân */
+  /* 5 Phần Thông tin nghề nghiệp */
+  /* 6 Phần chứng chỉ - Giải thưởng*/
+  .img7 {
+    width: 100%;
+  }
+  .imp7 {
+    display: block;
+  }
+  .span7 {
+    font-size: 14px;
+  }
+  /* 7 Phần dự án */
+  .past8 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .img-column {
+    width: 100%;
+  }
+  .chair-box {
+    height: 80%;
+  }
+  .icon88 {
+    padding: 0 10px;
+  }
+  .figure-box {
+    padding-right: 15px;
+  }
+  /* 8 Phần Footer */
+  /* 10 Đưa trang web lên online */
+}
